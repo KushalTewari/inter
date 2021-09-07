@@ -1,0 +1,123 @@
+.background{
+  background-image: linear-gradient(to bottom, white, rgb(243, 171, 38), orange);
+  background-size: 150% 150%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+ .first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+  width: auto;
+  height: auto;
+  }
+
+  .image1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:450px;
+    padding-top: 0.5%;
+    width: 100%;
+    height: auto;
+      }
+
+  .image2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width:750px;
+ padding-top: 0.5%;
+ width: 100%;
+ height: auto;
+  }
+  .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5%;
+    width: 100%;
+    height: auto;
+  }
+
+  .text-align{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  hr.one{
+
+    border: none;
+    height: 2px;
+    display: flex;
+    background: crimson;
+  }
+  .vline{
+    height:20px;
+    width: 1px;
+    background: crimson;
+   }
+
+  .align2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 2%; 
+  }
+
+  .box{
+
+    border:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    width: 100%;
+    background-color: rgb(231, 37, 37);
+  }
+  .box-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .box-elements > img{
+    margin-top: 2vh;
+    margin-right: 1vw;
+    padding-left: 8vw;
+    height:4vh;
+    width: 2vw;
+  }
+
+  .box-elements{
+    text-align: center;
+    color: white;
+
+  }
